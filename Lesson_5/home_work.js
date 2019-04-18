@@ -7,7 +7,6 @@
 // 2) Массив в котором находятся элементы со словами. Например ['Кот', 'Собака', 'Жираф' ]
 // Функция должна вернуть true или false\
 
-
 var array = ['Кот', 'Собака', 'Жираф'];
 
 function searchArrayWord(){
@@ -18,43 +17,6 @@ function searchArrayWord(){
     }
 }
 console.log(searchArrayWord());
-
-
-
-// var array = ['Кот', 'Собака', 'Жираф'];
-//
-//
-//
-// function searchArrayWord() {
-//
-//     if (array.indexOf(-1)){
-//         console.log('true');
-//         return true;
-//     }else {
-//
-//         console.log('false');
-//         return false;
-//
-//     }
-// }
-// console.log(searchArrayWord());
-
-
-
-// var searchArrayWord = {
-//   'cat' : '',
-//   'dog' : '',
-//   'Giraffe' : ''
-// };
-//
-// if ('cat' in searchArrayWord){
-//     console.log('true');
-//
-// }else {
-//     console.log('false');
-//
-// }
-// console.log(searchArrayWord);
 
 ///////////////////////////////////
 // 2. Определить среднее арифмитическое чисел из массива.
