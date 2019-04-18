@@ -9,14 +9,14 @@
 
 var array = ['Кот', 'Собака', 'Жираф'];
 
-function searchArrayWord(){
-    if (array.indexOf('Жираф') === -1) {
+function searchArrayWord(key,arr){
+    if (array.indexOf(key) === -1) {
        return false;
     }else{
         return true;
     }
 }
-console.log(searchArrayWord());
+console.log(searchArrayWord('Собака', array));
 
 ///////////////////////////////////
 // 2. Определить среднее арифмитическое чисел из массива.
