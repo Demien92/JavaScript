@@ -7,21 +7,40 @@
 // 2) Массив в котором находятся элементы со словами. Например ['Кот', 'Собака', 'Жираф' ]
 // Функция должна вернуть true или false\
 
+
 var array = ['Кот', 'Собака', 'Жираф'];
 
-function searchArrayWord() {
-
-    if ('Кот' in array){
+function searchArrayWord(){
+    if (array.indexOf('Жираф') === -1) {
+        console.log('false');
+       return false;
+    }else{
         console.log('true');
         return true;
-    }else {
-        console.log('false');
-        return false;
-
     }
 }
-
 console.log(searchArrayWord());
+
+
+
+// var array = ['Кот', 'Собака', 'Жираф'];
+//
+//
+//
+// function searchArrayWord() {
+//
+//     if (array.indexOf(-1)){
+//         console.log('true');
+//         return true;
+//     }else {
+//
+//         console.log('false');
+//         return false;
+//
+//     }
+// }
+// console.log(searchArrayWord());
+
 
 
 // var searchArrayWord = {
