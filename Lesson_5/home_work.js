@@ -12,10 +12,8 @@ var array = ['Кот', 'Собака', 'Жираф'];
 
 function searchArrayWord(){
     if (array.indexOf('Жираф') === -1) {
-        console.log('false');
        return false;
     }else{
-        console.log('true');
         return true;
     }
 }
