@@ -16,6 +16,7 @@ function searchArrayWord(key,arr){
         return true;
     }
 }
+
 console.log(searchArrayWord('Собака', array));
 
 ///////////////////////////////////
